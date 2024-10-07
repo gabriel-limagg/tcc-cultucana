@@ -11,9 +11,10 @@ export default function Body({ children }) {
       </div>
      
     </div>
-    <div className='hidden '>
+    
+    
       <Informaçoes/>
-      </div>
+    
      </div>
   )
 }

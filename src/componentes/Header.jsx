@@ -9,12 +9,12 @@ function Header() {
     const [chatOpen, setChatOpen] = useState(false);
     
     const [input, setInput] = useState("");
-    
+   
     const [messages, setMessages] = useState([]);
-   o
+    
     const messagesEndRef = useRef(null);
 
-   
+    
     const toggleChat = () => {
         setChatOpen(!chatOpen);
     };
@@ -22,19 +22,21 @@ function Header() {
     
     const formatResponseWithMarkdown = (text) => {
         return text.split('\n').filter(item => item.trim() !== '').map((item, index) => {
-           
+            
             if (item.startsWith('* **')) {
                 
                 const formattedItem = item.replace('* **', '<li><strong>').replace('**', '</strong>');
                 return <li key={index} dangerouslySetInnerHTML={{ __html: formattedItem }} />;
             }
 
+            
             if (item.startsWith('* ')) {
                 
                 const formattedItem = item.replace('* ', '- ');
                 return <p key={index}>{formattedItem}</p>;
             }
 
+            
             const formattedItem = item.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
             
             
@@ -53,12 +55,12 @@ function Header() {
         scrollToBottom();
     }, [messages]);
 
-   
+    
     const sendMessageToChatbot = async () => {
         
         if (input.trim() === "") return;
 
-        
+       
         setMessages((prevMessages) => [...prevMessages, { sender: 'user', text: input }]);
 
         
@@ -80,6 +82,7 @@ function Header() {
 
     return (
         <header>
+           
             <div className="justify-items-center relative m-0 p-0 top-0 left-0 bg-fundoHeader">
                 <Link to='/'>
                     <img className='w-28 m-auto justify-items-center cursor-pointer' src={Logo} alt="Logo"/>
@@ -115,12 +118,12 @@ function Header() {
                 </div>
             </div>
 
-            {/* Chatbot Pop-up */}
+           
             {chatOpen && (
                 <div className="chat-popup">
                     <h3 className="chat-header">Chatbot</h3>
                     <div id="chat-container" className="chat-container">
-                      
+                        {/* Mensagem inicial */}
                         <p className="chat-message bot">
                             <strong>Cutú</strong> Olá, meu amigo! <br/><br/>
                             Está preparado para aprender mais sobre o cultivo de cana-de-açúcar?<br/>
@@ -129,7 +132,7 @@ function Header() {
 
 
                         </p>
-                        
+                        {/* Renderizando todas as mensagens */}
                         {messages.map((message, index) => (
                             <div key={index} className={`chat-message ${message.sender}`}>
                                 <p>
@@ -166,18 +169,18 @@ function Header() {
                 </div>
             )}
 
-          
+            
             <button
                 onClick={toggleChat}
                 className="chat-toggle-btn"
             >
                 {chatOpen ? (
-                   
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 ) : (
-                    
+                   
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h8m-4-4v8" />
                     </svg>
