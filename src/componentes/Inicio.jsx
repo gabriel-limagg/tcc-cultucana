@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Canvas, useLoader } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
+
 import { STLLoader } from 'three/examples/jsm/loaders/STLLoader';
 
 
@@ -11,14 +11,14 @@ function Inicio() {
 
   return (
 
-    <div>
+    <div className='px-4 md:px-8 h-screen'>
         
-        <div className='px-4 md:px-8'>
-      <h1 className=' font-RedRose  md:pt-56 text-textColor text-4xl md:text-7xl text-center  md:-mt-40'>
+       
+      <h1 className=' font-RedRose  md:pt-56 text-textColor text-4xl md:text-7xl text-center  md:-mt-40 '>
        CULTUCANA
       </h1>
-        </div>
-    <div className="flex justify-center items-center h-screen">
+        
+    <div className="h-5/6 absolute- z-10  ">
       <Canvas>
         {/* Luzes */}
         <ambientLight intensity={0.5} />
