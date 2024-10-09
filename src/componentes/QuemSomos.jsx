@@ -35,7 +35,7 @@ export default function () {
                             Nosso Projeto
                         </h1>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>
-                            Desenvolvemos um projeto de monitoramento da canavicultura em São Paulo, que visa aplicar soluções tecnológicas para otimizar a gestão das plantações e promover uma agricultura mais eficiente e sustentável.
+                        Desenvolvemos um espantalho robô para monitorar plantações agrícolas, utilizando sensores de umidade do ar, temperatura e localização por GPS. O objetivo do projeto é aplicar soluções tecnológicas que ajudem os agricultores a otimizar o cuidado com suas plantações e aumentar a eficiência no manejo agrícola.
                         </p>
                     </div>
                     <div className='md:w-1/3 text-center'>

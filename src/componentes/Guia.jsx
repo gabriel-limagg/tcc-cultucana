@@ -31,7 +31,8 @@ export default function () {
                             Preparando o Solo:
                         </p>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>
-                            Certifique-se de que o solo no local escolhido esteja firme e livre de detritos. Nivele o terreno se necessário para garantir a estabilidade do dispositivo.
+                            Certifique-se de que o solo no local escolhido esteja firme e livre de detritos. Nivele o terreno se necessário para garantir a estabilidade do espantalho robô.
+
                         </p>
                     </div>
                     <div className='md:w-1/3 text-center'>
@@ -39,7 +40,8 @@ export default function () {
                             Fixação do Dispositivo:
                         </p>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>
-                            Posicione a Cultucana no local preparado e utilize as estacas de fixação fornecidas para garantir que o dispositivo esteja firmemente instalado no solo. Verifique se o dispositivo está nivelado e perpendicular ao solo.
+                        Posicione o espantalho robô no local preparado e utilize as estacas de fixação fornecidas para garantir que o dispositivo esteja firmemente instalado no solo. Verifique se ele está nivelado e perpendicular ao solo para o funcionamento adequado dos sensores.
+
                         </p>
                     </div>
                 </div>
@@ -57,7 +59,7 @@ export default function () {
                         Download e Instalação: Baixe o aplicativo Cultucana na Play Store ou Apple Store.
                     </p>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-stone-300'>
-                        Conexão Wi-Fi: Na primeira página do aplicativo após a inicialização, utilize o scanner QR code para conectar o dispositivo à sua rede Wi-Fi. Certifique-se de que a rede Wi-Fi esteja com boa recepção no local de instalação da Cultucana.
+                        Conexão Wi-Fi: Na primeira página do aplicativo após a inicialização, utilize o scanner QR code para conectar o dispositivo à sua rede Wi-Fi. Certifique-se de que a rede Wi-Fi esteja com boa recepção no local de instalação do projeto.
                     </p>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-stone-300'>
                         Criação de Conta: Crie uma conta no aplicativo para ter acesso a todos os recursos e funcionalidades da plataforma Cultucana.
@@ -74,7 +76,7 @@ export default function () {
                 </div>
                 <div className='p-8 md:p-12'>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-stone-300'>
-                        Verificação Regular: Inspecione periodicamente o dispositivo para garantir que ele esteja firmemente instalado no solo e que nenhum sensor tenha sido danificado ou removido.
+                        Verificação Regular: Inspecione periodicamente o espantalho para garantir que ele esteja firmemente instalado no solo e que nenhum sensor tenha sido danificado ou removido.
                     </p>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-stone-300'>
                         Atualizações do Aplicativo: Mantenha o aplicativo Cultucana atualizado com a última versão para garantir o acesso às funcionalidades mais recentes e correções de bugs.
