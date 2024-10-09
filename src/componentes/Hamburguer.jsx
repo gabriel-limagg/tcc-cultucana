@@ -62,9 +62,7 @@ export default function Hamburguer() {
               <h2 className='font-RedRose text-slate-950 cursor-pointer text-center mb-10'>Materiais</h2>
             </Link>
           </div>
-          <div className='bg-zinc-400 rounded-lg'>
-            <h2 className='font-RedRose text-slate-950 cursor-pointer text-center mb-10'>CANAÃ</h2>
-          </div>
+          
           <div className='bg-zinc-400 rounded-lg'>
             <Link to='/quem-somos'>
               <h2 className='font-RedRose text-slate-950 cursor-pointer text-center mb-5'>Quem somos</h2>
