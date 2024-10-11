@@ -17,14 +17,14 @@ function FloatingMesh({ geometry }) {
   });
 
   return (
-    <mesh
+    <mesh 
       ref={meshRef}
       geometry={geometry}
       position={[-2.1, 0, -1]} // Posiciona o objeto inicialmente no centro
       scale={[0.015, 0.015, 0.015]} // Aumenta o objeto um pouco mais
       rotation={[-1.3, 0, 0]} // Rotaciona o objeto no eixo X
     >
-      <meshStandardMaterial color="white" />
+      <meshStandardMaterial color='gray' />
     </mesh>
   );
 }
@@ -41,7 +41,7 @@ function Inicio() {
       <div className="relative w-full h-full z-10">
         <Canvas style={{ height: '100%' }}>
           {/* Luzes */}
-          <ambientLight intensity={0.5} />
+          <ambientLight intensity={1.5} />
           <directionalLight position={[8, 2, 9]} />
 
           {/* Renderizar o modelo STL */}

@@ -9,6 +9,8 @@ import seis from '../assets/6.svg';
 import sete from '../assets/7.svg';
 import oito from '../assets/8.svg';
 import nove from '../assets/9.svg';
+import dez from '../assets/10.svg'
+import onze from '../assets/11.svg'
 
 const images = [
   um,
@@ -19,7 +21,9 @@ const images = [
   seis,
   sete,
   oito,
-  nove
+  nove,
+  dez,
+  onze
 ];
 
 const Carousel = () => {
@@ -28,7 +32,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setAtual((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); 
+    }, 1000000); 
     return () => clearInterval(interval);
   }, []);
 

@@ -32,11 +32,11 @@ export default function Apresentacao() {
           </div>
         </div>
 
-        <div className='font-RedRose mt-10 md:mt-20'>
+        <div className=' font-RedRose mt-10 md:mt-20'>
           <h1 className='text-textColor text-4xl md:text-5xl text-center md:my-10'>Por Que Escolher Nosso Sistema:</h1>
-          <p className='font-lilita text-lg md:text-xl text-stone-300 text-center mt-4 md:mt-10'>
-            Precisão e Confiabilidade: Nossos sensores de alta qualidade garantem leituras precisas e confiáveis em todas as condições climáticas.<br />
-            Sustentabilidade: Priorizamos a sustentabilidade em todas as etapas do processo, desde a energia renovável até os materiais ecológicos.<br />
+          <p className=' m-auto md:w-1/2 font-lilita text-lg md:text-xl text-stone-300 text-center mt-4 md:mt-10'>
+            Precisão e Confiabilidade: Nossos sensores de alta qualidade garantem leituras precisas e confiáveis em todas as condições climáticas.
+            Sustentabilidade: Priorizamos a sustentabilidade em todas as etapas do processo, desde a energia renovável até os materiais ecológicos.
             Facilidade de Uso: Nosso sistema é projetado para ser fácil de instalar e usar, permitindo que os produtores se concentrem em maximizar sua produção de cana-de-açúcar.
           </p>
         </div>

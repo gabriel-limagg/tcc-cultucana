@@ -22,7 +22,7 @@ export default function () {
                     </div>
                 </div>
                 <div className='flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 p-4 md:p-8'>
-                    <div className='md:w-1/3 text-center'>
+                    <div className='md:ml-14 md:w-1/4 text-center'>
                         <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
                             Quem somos
                         </h1>
@@ -30,7 +30,7 @@ export default function () {
                             Olá! Somos Gabriel Lima, Juan Kaman, e Kaua Kestering, estudantes do ensino médio e entusiastas da tecnologia. Matriculados no curso técnico de TI na UNASP, buscamos constantemente aprimorar nossas habilidades e conhecimentos na área.
                         </p>
                     </div>
-                    <div className='md:w-1/3 text-center'>
+                    <div className='md:w-1/4 text-center'>
                         <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
                             Nosso Projeto
                         </h1>
@@ -38,7 +38,7 @@ export default function () {
                         Desenvolvemos um espantalho robô para monitorar plantações agrícolas, utilizando sensores de umidade do ar, temperatura e localização por GPS. O objetivo do projeto é aplicar soluções tecnológicas que ajudem os agricultores a otimizar o cuidado com suas plantações e aumentar a eficiência no manejo agrícola.
                         </p>
                     </div>
-                    <div className='md:w-1/3 text-center'>
+                    <div className='md:mr-14 md:w-1/4 text-center'>
                         <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
                             Motivação
                         </h1>

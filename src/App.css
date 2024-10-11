@@ -48,6 +48,7 @@
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    z-index: 20;
 }
 
 /* Cabeçalho do chat */
@@ -59,6 +60,7 @@
     border-top-right-radius: 10px;
     text-align: center;
     font-size: 18px;
+
 }
 
 .chat-container {
@@ -74,6 +76,7 @@
     padding: 8px;
     border-radius: 5px;
     max-width: 80%;
+    
 }
 
 .chat-message.user {

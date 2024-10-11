@@ -96,23 +96,23 @@ function Header() {
                 <div className='text-3xl justify-between flex pl-12 pr-12 place-items-center max-[1500px]:text-2xl max-[1200px]:text-xl'>
                     <div>
                         <Link to='/apresentacao'>
-                            <h2 className='font-aleo text-stone-300 cursor-pointer'>Apresentação</h2>
+                            <h2 className='font-aleo text-stone-300 cursor-pointer hover:text-textColor'>Apresentação</h2>
                         </Link>
                     </div>
                     <div>
                         <Link to='/guia-de-utilizacao'>
-                            <h2 className='font-aleo text-stone-300 cursor-pointer'>Guia de ultilização</h2>
+                            <h2 className='font-aleo text-stone-300 cursor-pointer hover:text-textColor'>Guia de ultilização</h2>
                         </Link>
                     </div>
                     <div>
                         <Link to='/materiais'>
-                            <h2 className='font-aleo text-stone-300 cursor-pointer'>Materiais utilizados</h2>
+                            <h2 className='font-aleo text-stone-300 cursor-pointer hover:text-textColor'>Materiais utilizados</h2>
                         </Link>
                     </div>
                     
                     <div>
                         <Link to='/quem-somos'>
-                            <h2 className='font-aleo text-stone-300 cursor-pointer'>Quem somos nós</h2>
+                            <h2 className='font-aleo text-stone-300 cursor-pointer hover:text-textColor'>Quem somos nós</h2>
                         </Link>
                     </div>
                 </div>
