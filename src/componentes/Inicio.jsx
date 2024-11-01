@@ -41,8 +41,8 @@ function Inicio() {
       <div className="relative w-full h-full z-10">
         <Canvas style={{ height: '100%' }}>
           {/* Luzes */}
-          <ambientLight intensity={1.5} />
-          <directionalLight position={[8, 2, 9]} />
+          <ambientLight intensity={1.7} />
+          <directionalLight position={[9, 9, 9]} />
 
           {/* Renderizar o modelo STL */}
           <FloatingMesh geometry={geometry} />

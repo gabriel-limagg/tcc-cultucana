@@ -1,5 +1,7 @@
 import React from 'react'
 import img from '../assets/img.svg'
+import img2 from '../assets/img2.svg'
+import img3 from '../assets/img3.svg'
 
 export default function Apresentacao() {
   return (
@@ -47,8 +49,8 @@ export default function Apresentacao() {
 
         <div className=' flex flex-col md:flex-row justify-between items-center mt-10 md:mt-20 space-y-4 md:p-8 px-16'>
           <img src={img} alt="" className='  md:w-1/4 md:mr-4 md:ml-4' />
-          <img src={img} alt="" className=' md:w-1/4 md:mr-4 md:ml-4' />
-          <img src={img} alt="" className=' md:w-1/4 md:mr-4 md:ml-4' />
+          <img src={img2} alt="" className=' md:w-1/4 md:mr-4 md:ml-4' />
+          <img src={img3} alt="" className=' md:w-1/4 md:mr-4 md:ml-4' />
         </div>
       </section>
     </div>
