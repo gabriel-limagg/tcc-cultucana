@@ -1,6 +1,8 @@
 
 import React from 'react'
 import video from '../assets/video.svg'
+import video1 from '../assets/jogoCerto.mp4'
+import guia2 from '../assets/2tutorial.mp4'
 
 export default function () {
     return (
@@ -15,11 +17,13 @@ export default function () {
                     </h1>
                 </div>
                 <div>
-                    <img className='m-auto mt-8 md:mt-24' src={video} alt="" />
-                    <p className='text-white text-center'>Tutorial em vídeo</p>
+                    <video className='w-96 m-auto ' controls>
+                        <source src={video1} type='video/mp4'/>
+                    </video>
+                    
                 </div>
                 <div className='flex flex-col md:flex-row  p-8 md:p-14 space-y-8 md:space-y-0'>
-                    <div className='m-auto  md:w-1/5 text-center  md:ml-24'>
+                    <div className='m-auto  md:w-1/5 text-center  md:ml-12'>
                         <p className='font-lilita text-lg md:text-xl text-textColor'>
                             Seleção do Local:
                         </p>
@@ -27,7 +31,7 @@ export default function () {
                             Escolha um local central em sua plantação que receba boa incidência solar e possua fácil acesso para monitoramento e manutenção.
                         </p>
                     </div>
-                    <div className='md:mr-60 md:w-1/5 text-center  '>
+                    <div className=' md:w-1/5 text-center m-auto md:mr-56 md:ml-56  '>
                         <p className='font-lilita text-lg md:text-xl text-textColor'>
                             Preparando o Solo:
                         </p>
@@ -36,7 +40,7 @@ export default function () {
 
                         </p>
                     </div>
-                    <div className='md:w-1/5 text-center   md:mr-24 '>
+                    <div className='md:w-1/5 text-center   md:mr-12 '>
                         <p className='font-lilita text-lg md:text-xl text-textColor'>
                             Fixação do Dispositivo:
                         </p>
@@ -52,8 +56,11 @@ export default function () {
                     </h1>
                 </div>
                 <div>
-                    <img className='m-auto mt-8 md:mt-16' src={video} alt="" />
-                    <p className='text-white text-center'>Tutorial em vídeo</p>
+                    
+                <video className='w-56 m-auto ' controls>
+                        <source src={guia2} type='video/mp4'/>
+                    </video>
+                  
                 </div>
                 <div className='p-8 md:p-12'>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-textColor'>
@@ -72,7 +79,7 @@ export default function () {
                 </div>
                 <div>
                     <img className='m-auto mt-8 md:mt-16' src={video} alt="" />
-                    <p className='text-white text-center'>Tutorial em vídeo</p>
+                    
                 </div>
                 <div className='p-8 md:p-12'>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-textColor'>Verificação Regular:</p>
@@ -83,6 +90,17 @@ export default function () {
                         Atualizações do Aplicativo: Mantenha o aplicativo Cultucana atualizado com a última versão para garantir o acesso às funcionalidades mais recentes e correções de bugs.
                     </p>
                 </div>
+                    <div>
+                    <h1 className='font-RedRose p-8 mt-10 text-center text-textColor text-4xl md:text-5xl'>
+                       nosso jogo
+                    </h1>
+                    <video className='w-96 m-auto ' controls>
+                        <source src={video1} type='video/mp4'/>
+                    </video>
+                    <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-14 text-stone-300 m-auto md:w-1/2 '>Desafie-se com o Jogo do Cultucana!
+Apresentamos um jogo leve e divertido para você se desafiar! O objetivo é simples: guiar o personagem até a Árvore Mãe, superando obstáculos pelo caminho. Esse jogo foi criado para proporcionar um momento de descontração e entretenimento. Assista ao vídeo e venha explorar essa jornada.</p>
+                    </div>
+
             </section>
         </div>
   )
