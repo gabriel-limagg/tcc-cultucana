@@ -24,8 +24,8 @@ export default function () {
                     </video>
                     
                 </div>
-                <div className='flex flex-col md:flex-row  p-8 md:p-14 space-y-8 md:space-y-0'>
-                    <div className='m-auto  md:w-1/5 text-center  md:ml-12'>
+                <div className='flex md:justify-between flex-col md:flex-row  '>
+                    <div className='m-0  md:w-1/5 text-center  md:ml-12'>
                         <p className='font-lilita text-lg md:text-xl text-textColor'>
                             Seleção do Local:
                         </p>
@@ -33,7 +33,7 @@ export default function () {
                             Escolha um local central em sua plantação que receba boa incidência solar e possua fácil acesso para monitoramento e manutenção.
                         </p>
                     </div>
-                    <div className=' md:w-1/5 text-center m-auto md:mr-56 md:ml-56  '>
+                    <div className=' md:w-1/5 text-center md:m-auto items-center'>
                         <p className='font-lilita text-lg md:text-xl text-textColor'>
                             Preparando o Solo:
                         </p>
