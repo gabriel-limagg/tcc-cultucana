@@ -3,6 +3,8 @@ import React from 'react'
 import video from '../assets/video.svg'
 import video1 from '../assets/jogoCerto.mp4'
 import guia2 from '../assets/2tutorial.mp4'
+import guia1 from '../assets/tutorial1.mp4'
+import guia3 from '../assets/tutorial3.mp4' 
 
 export default function () {
     return (
@@ -17,8 +19,8 @@ export default function () {
                     </h1>
                 </div>
                 <div>
-                    <video className='w-96 m-auto ' controls>
-                        <source src={video1} type='video/mp4'/>
+                    <video className=' w-52 m-auto ' controls>
+                        <source src={guia1} type='video/mp4'/>
                     </video>
                     
                 </div>
@@ -57,7 +59,7 @@ export default function () {
                 </div>
                 <div>
                     
-                <video className='w-56 m-auto ' controls>
+                <video className='w-52 m-auto ' controls>
                         <source src={guia2} type='video/mp4'/>
                     </video>
                   
@@ -78,8 +80,10 @@ export default function () {
                     </h1>
                 </div>
                 <div>
-                    <img className='m-auto mt-8 md:mt-16' src={video} alt="" />
                     
+                <video className='w-96 m-auto ' controls>
+                        <source src={guia3} type='video/mp4'/>
+                    </video>
                 </div>
                 <div className='p-8 md:p-12'>
                     <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-8 text-textColor'>Verificação Regular:</p>
@@ -97,7 +101,7 @@ export default function () {
                     <video className='w-96 m-auto ' controls>
                         <source src={video1} type='video/mp4'/>
                     </video>
-                    <p className='font-lilita text-lg md:text-xl text-center mt-4 md:mt-14 text-stone-300 m-auto md:w-1/2 '>Desafie-se com o Jogo do Cultucana!
+                    <p className='p-4 font-lilita text-lg md:text-xl text-center mt-4 md:mt-14 text-stone-300 m-auto md:w-1/2 '>Desafie-se com o Jogo do Cultucana!
 Apresentamos um jogo leve e divertido para você se desafiar! O objetivo é simples: guiar o personagem até a Árvore Mãe, superando obstáculos pelo caminho. Esse jogo foi criado para proporcionar um momento de descontração e entretenimento. Assista ao vídeo e venha explorar essa jornada.</p>
                     </div>
 
