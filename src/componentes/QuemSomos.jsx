@@ -23,7 +23,7 @@ export default function () {
                 </div>
                 <div className='flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 p-4 md:p-8'>
                     <div className='md:ml-14 md:w-1/4 text-center'>
-                        <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
+                        <h1 className='font-RedRose text-textColor text-4xl md:text-4xl'>
                             Quem somos
                         </h1>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>
@@ -31,7 +31,7 @@ export default function () {
                         </p>
                     </div>
                     <div className='md:w-1/4 text-center'>
-                        <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
+                        <h1 className='font-RedRose text-textColor text-4xl md:text-4xl'>
                             Nosso Projeto
                         </h1>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>
@@ -39,7 +39,7 @@ export default function () {
                         </p>
                     </div>
                     <div className='md:mr-14 md:w-1/4 text-center'>
-                        <h1 className='font-RedRose text-textColor text-4xl md:text-5xl'>
+                        <h1 className='font-RedRose text-textColor text-4xl md:text-4xl'>
                             Motivação
                         </h1>
                         <p className='font-lilita text-lg md:text-xl mt-4 md:mt-8 text-stone-300'>

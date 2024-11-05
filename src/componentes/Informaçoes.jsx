@@ -8,7 +8,7 @@ export default function () {
     <div className='bg-slate-950 w-screen'>
        <div className='m-auto p-6 left-52   flex justify-center'>
         <div className='p-4 w-20 items-start'>
-           <a href="https://www.instagram.com/gab.lima_?igsh=MXFjMnowbHhoeGRmNw=="> < img src={instagram} alt="" /></a>
+           <a href="https://www.instagram.com/cultucana/profilecard/?igsh=Z3cwNHJ4dTJpZGM="> < img src={instagram} alt="" /></a>
         </div>
         <div className='p-4 w-20'>
            <a href="https://www.linkedin.com/in/gabriel-santos-lima-845830252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src={likedin} alt="" /></a>
